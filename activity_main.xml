@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:autoSizeMaxTextSize="50dp"
+        android:text="PROFIL"
+        android:textColor="#0000ff"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/imgg"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Riski Purwanto"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textColor="#ff00ff00"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="riski.065118072@unpak.ac.id"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NPM : 065118072"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Keaktifan : Aktif"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Program Studi : Ilmu Komputer"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenjang Pendidikan : S1"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KIRIM EMAIL"
+        android:onClick="email"/>
+
+
+
+</LinearLayout>
